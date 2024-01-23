@@ -39,47 +39,59 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(26, 61);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(215, 76);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(378, 60);
+            this.label1.Size = new System.Drawing.Size(206, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "nopan heitto";
             // 
             // Nopa1PB
             // 
-            this.Nopa1PB.Location = new System.Drawing.Point(26, 124);
+            this.Nopa1PB.Image = global::harjoitus_11.Properties.Resources.dice01;
+            this.Nopa1PB.Location = new System.Drawing.Point(215, 113);
+            this.Nopa1PB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Nopa1PB.Name = "Nopa1PB";
-            this.Nopa1PB.Size = new System.Drawing.Size(150, 128);
+            this.Nopa1PB.Size = new System.Drawing.Size(78, 77);
+            this.Nopa1PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Nopa1PB.TabIndex = 1;
             this.Nopa1PB.TabStop = false;
             // 
             // Nopa2PB
             // 
-            this.Nopa2PB.Location = new System.Drawing.Point(182, 124);
+            this.Nopa2PB.Image = global::harjoitus_11.Properties.Resources.dice01;
+            this.Nopa2PB.Location = new System.Drawing.Point(297, 113);
+            this.Nopa2PB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Nopa2PB.Name = "Nopa2PB";
-            this.Nopa2PB.Size = new System.Drawing.Size(150, 128);
+            this.Nopa2PB.Size = new System.Drawing.Size(80, 77);
+            this.Nopa2PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Nopa2PB.TabIndex = 2;
             this.Nopa2PB.TabStop = false;
             // 
             // buttonBT
             // 
-            this.buttonBT.Location = new System.Drawing.Point(26, 258);
+            this.buttonBT.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonBT.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonBT.Location = new System.Drawing.Point(215, 194);
+            this.buttonBT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonBT.Name = "buttonBT";
-            this.buttonBT.Size = new System.Drawing.Size(112, 34);
+            this.buttonBT.Size = new System.Drawing.Size(162, 51);
             this.buttonBT.TabIndex = 3;
             this.buttonBT.Text = "button1";
-            this.buttonBT.UseVisualStyleBackColor = true;
+            this.buttonBT.UseVisualStyleBackColor = false;
+            this.buttonBT.Click += new System.EventHandler(this.buttonBT_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 353);
+            this.ClientSize = new System.Drawing.Size(637, 379);
+            this.Controls.Add(this.Nopa1PB);
             this.Controls.Add(this.buttonBT);
             this.Controls.Add(this.Nopa2PB);
-            this.Controls.Add(this.Nopa1PB);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.Nopa1PB)).EndInit();

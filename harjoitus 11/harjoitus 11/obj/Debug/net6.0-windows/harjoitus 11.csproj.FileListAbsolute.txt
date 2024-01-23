@@ -1,0 +1,18 @@
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\bin\Debug\net6.0-windows\harjoitus 11.exe
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\bin\Debug\net6.0-windows\harjoitus 11.deps.json
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\bin\Debug\net6.0-windows\harjoitus 11.runtimeconfig.json
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\bin\Debug\net6.0-windows\harjoitus 11.dll
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\bin\Debug\net6.0-windows\harjoitus 11.pdb
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.csproj.AssemblyReference.cache
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus_11.Form1.resources
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus_11.Properties.Resources.resources
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.csproj.GenerateResource.cache
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.AssemblyInfoInputs.cache
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.AssemblyInfo.cs
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.csproj.CoreCompileInputs.cache
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.dll
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\refint\harjoitus 11.dll
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.pdb
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\harjoitus 11.genruntimeconfig.cache
+C:\Users\mohammad.bagheri\Source\Repos\windows-form\harjoitus 11\harjoitus 11\obj\Debug\net6.0-windows\ref\harjoitus 11.dll
