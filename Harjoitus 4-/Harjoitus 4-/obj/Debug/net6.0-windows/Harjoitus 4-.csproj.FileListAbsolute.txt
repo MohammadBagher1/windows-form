@@ -1,0 +1,34 @@
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.exe
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.deps.json
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.runtimeconfig.json
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.dll
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.pdb
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.csproj.AssemblyReference.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus_4_.IkaForm.resources
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.csproj.GenerateResource.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.AssemblyInfoInputs.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.AssemblyInfo.cs
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.csproj.CoreCompileInputs.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.dll
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\refint\Harjoitus 4-.dll
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.pdb
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.genruntimeconfig.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\ref\Harjoitus 4-.dll
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.exe
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.deps.json
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.runtimeconfig.json
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.dll
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\bin\Debug\net6.0-windows\Harjoitus 4-.pdb
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus_4_.IkaForm.resources
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.AssemblyInfoInputs.cache
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.AssemblyInfo.cs
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.csproj.CoreCompileInputs.cache
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.dll
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\refint\Harjoitus 4-.dll
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.pdb
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\Harjoitus 4-.genruntimeconfig.cache
+C:\Users\mohammad\source\repos\windows-form\Harjoitus 4-\Harjoitus 4-\obj\Debug\net6.0-windows\ref\Harjoitus 4-.dll

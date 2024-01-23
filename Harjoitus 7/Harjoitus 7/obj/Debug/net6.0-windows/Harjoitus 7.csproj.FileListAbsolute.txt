@@ -1,0 +1,17 @@
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\bin\Debug\net6.0-windows\Harjoitus 7.exe
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\bin\Debug\net6.0-windows\Harjoitus 7.deps.json
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\bin\Debug\net6.0-windows\Harjoitus 7.runtimeconfig.json
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\bin\Debug\net6.0-windows\Harjoitus 7.dll
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\bin\Debug\net6.0-windows\Harjoitus 7.pdb
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.csproj.AssemblyReference.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus_7.Form1.resources
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.csproj.GenerateResource.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.AssemblyInfoInputs.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.AssemblyInfo.cs
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.csproj.CoreCompileInputs.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.dll
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\refint\Harjoitus 7.dll
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.pdb
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\Harjoitus 7.genruntimeconfig.cache
+C:\Users\mohammad\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Harjoitus 7\Harjoitus 7\obj\Debug\net6.0-windows\ref\Harjoitus 7.dll
