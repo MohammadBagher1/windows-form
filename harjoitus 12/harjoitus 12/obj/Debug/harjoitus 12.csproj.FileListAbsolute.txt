@@ -14,9 +14,9 @@ C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\bi
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\bin\Debug\harjoitus 12.pdb
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.csproj.AssemblyReference.cache
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.csproj.SuggestedBindingRedirects.cache
-C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus_12.Form1.resources
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus_12.Properties.Resources.resources
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.csproj.GenerateResource.cache
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.csproj.CoreCompileInputs.cache
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.exe
 C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.pdb
+C:\Users\mohammad.bagheri\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus_12.VastausLomakeForm.resources
