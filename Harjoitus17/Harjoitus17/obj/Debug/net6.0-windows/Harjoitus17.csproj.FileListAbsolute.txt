@@ -1,0 +1,17 @@
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.Form1.resources
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.AssemblyInfoInputs.cache
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.AssemblyInfo.cs
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.csproj.CoreCompileInputs.cache
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.exe
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.deps.json
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.runtimeconfig.json
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.dll
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\bin\Debug\net6.0-windows\Harjoitus17.pdb
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.dll
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\refint\Harjoitus17.dll
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.pdb
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\Harjoitus17.genruntimeconfig.cache
+C:\Users\mohammad\source\repos\windows-form1\Harjoitus17\Harjoitus17\obj\Debug\net6.0-windows\ref\Harjoitus17.dll
