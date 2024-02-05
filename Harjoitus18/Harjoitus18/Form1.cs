@@ -17,12 +17,12 @@ namespace Harjoitus18
             string viite = oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OID"].ToString();
             OsoiteLB.Text= oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OKatuosoite"].ToString();
             PostiNumeroLB.Text= oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OPostinumero"].ToString();
-            PostimapaikkaLB.Text = oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OPostimapaikka"].ToString();
+            PostitoimipaikkaLB.Text = oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OPostitoimipaikka"].ToString();
             PuhelinLB.Text= oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OPuhelin"].ToString();
 
             Yhteys= vastuuHenkilot.Select("OID =" + viite ).CopyToDataTable();
             VastuhenkiloCB.DataSource= Yhteys;
-            VastuhenkiloCB.DisplayMember = "ONimi";
+            VastuhenkiloCB.DisplayMember = "VNimi";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace Harjoitus18
             oppilaitos.Columns.Add("ONimi");
             oppilaitos.Columns.Add("OKatuosoite");
             oppilaitos.Columns.Add("Opostinumero");
-            oppilaitos.Columns.Add("OPostimapikka");
+            oppilaitos.Columns.Add("OPostitoimipaikka");
             oppilaitos.Columns.Add("OPuhelin");
 
             oppilaitos.Rows.Add(1, "StadinAO", "Hattulantie 2", "00550", "Helsinki", "09 310 8600");
@@ -83,8 +83,13 @@ namespace Harjoitus18
             TitteliLB.Text= Yhteys.Rows[VastuhenkiloCB.SelectedIndex]["VTitteli"].ToString();
             OsastoLB.Text = Yhteys.Rows[VastuhenkiloCB.SelectedIndex]["VOsasto"].ToString();
             SahkopostiLB.Text = Yhteys.Rows[VastuhenkiloCB.SelectedIndex]["VSahkoposti"].ToString();
-            PuhelinLB.Text = Yhteys.Rows[VastuhenkiloCB.SelectedIndex]["VPuhelin"].ToString();
+            puhLB.Text = Yhteys.Rows[VastuhenkiloCB.SelectedIndex]["VPuhelin"].ToString();
 
+
+        }
+
+        private void PostimapaikkaLB_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -1,0 +1,7 @@
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\Harjoitus19.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\KahvilaListaApp.MainForm.resources
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\Harjoitus19.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\Harjoitus19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\Harjoitus19.AssemblyInfoInputs.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\Harjoitus19.AssemblyInfo.cs
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus19\Harjoitus19\obj\Debug\net6.0-windows\Harjoitus19.csproj.CoreCompileInputs.cache

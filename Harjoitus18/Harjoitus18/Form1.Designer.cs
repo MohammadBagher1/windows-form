@@ -35,9 +35,9 @@
             this.VastuhenkiloCB = new System.Windows.Forms.ComboBox();
             this.OsoiteLB = new System.Windows.Forms.Label();
             this.PostiNumeroLB = new System.Windows.Forms.Label();
-            this.PostimapaikkaLB = new System.Windows.Forms.Label();
+            this.PostitoimipaikkaLB = new System.Windows.Forms.Label();
             this.PuhelinLB = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.puhLB = new System.Windows.Forms.Label();
             this.SahkopostiLB = new System.Windows.Forms.Label();
             this.OsastoLB = new System.Windows.Forms.Label();
             this.TitteliLB = new System.Windows.Forms.Label();
@@ -114,15 +114,16 @@
             this.PostiNumeroLB.TabIndex = 6;
             this.PostiNumeroLB.Text = "Postinumero";
             // 
-            // PostimapaikkaLB
+            // PostitoimipaikkaLB
             // 
-            this.PostimapaikkaLB.AutoSize = true;
-            this.PostimapaikkaLB.Location = new System.Drawing.Point(13, 397);
-            this.PostimapaikkaLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.PostimapaikkaLB.Name = "PostimapaikkaLB";
-            this.PostimapaikkaLB.Size = new System.Drawing.Size(193, 38);
-            this.PostimapaikkaLB.TabIndex = 7;
-            this.PostimapaikkaLB.Text = "Postimapaikka";
+            this.PostitoimipaikkaLB.AutoSize = true;
+            this.PostitoimipaikkaLB.Location = new System.Drawing.Point(13, 397);
+            this.PostitoimipaikkaLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.PostitoimipaikkaLB.Name = "PostitoimipaikkaLB";
+            this.PostitoimipaikkaLB.Size = new System.Drawing.Size(193, 38);
+            this.PostitoimipaikkaLB.TabIndex = 7;
+            this.PostitoimipaikkaLB.Text = "Postimapaikka";
+            this.PostitoimipaikkaLB.Click += new System.EventHandler(this.PostimapaikkaLB_Click);
             // 
             // PuhelinLB
             // 
@@ -134,15 +135,15 @@
             this.PuhelinLB.TabIndex = 8;
             this.PuhelinLB.Text = "Puhelin";
             // 
-            // label3
+            // puhLB
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(454, 468);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 38);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Puhelin";
+            this.puhLB.AutoSize = true;
+            this.puhLB.Location = new System.Drawing.Point(454, 468);
+            this.puhLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.puhLB.Name = "puhLB";
+            this.puhLB.Size = new System.Drawing.Size(110, 38);
+            this.puhLB.TabIndex = 12;
+            this.puhLB.Text = "Puhelin";
             // 
             // SahkopostiLB
             // 
@@ -179,12 +180,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 38F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(771, 522);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.puhLB);
             this.Controls.Add(this.SahkopostiLB);
             this.Controls.Add(this.OsastoLB);
             this.Controls.Add(this.TitteliLB);
             this.Controls.Add(this.PuhelinLB);
-            this.Controls.Add(this.PostimapaikkaLB);
+            this.Controls.Add(this.PostitoimipaikkaLB);
             this.Controls.Add(this.PostiNumeroLB);
             this.Controls.Add(this.OsoiteLB);
             this.Controls.Add(this.VastuhenkiloCB);
@@ -217,5 +218,7 @@
         private Label SahkopostiLB;
         private Label OsastoLB;
         private Label TitteliLB;
+        private Label PostitoimipaikkaLB;
+        private Label puhLB;
     }
 }
