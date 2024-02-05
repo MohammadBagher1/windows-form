@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohammad\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\harjoitus15\\harjoitus15\\harjoitus15.csproj": {}
+    "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus15\\harjoitus15\\harjoitus15.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohammad\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\harjoitus15\\harjoitus15\\harjoitus15.csproj": {
+    "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus15\\harjoitus15\\harjoitus15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohammad\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\harjoitus15\\harjoitus15\\harjoitus15.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus15\\harjoitus15\\harjoitus15.csproj",
         "projectName": "harjoitus15",
-        "projectPath": "C:\\Users\\mohammad\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\harjoitus15\\harjoitus15\\harjoitus15.csproj",
+        "projectPath": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus15\\harjoitus15\\harjoitus15.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohammad\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\harjoitus15\\harjoitus15\\obj\\",
+        "outputPath": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus15\\harjoitus15\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

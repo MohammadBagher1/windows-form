@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohammad\\source\\repos\\windows-form1\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj": {}
+    "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohammad\\source\\repos\\windows-form1\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj": {
+    "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\windows-form1\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj",
+        "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj",
         "projectName": "Harjoitus16",
-        "projectPath": "C:\\Users\\mohammad\\source\\repos\\windows-form1\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj",
+        "projectPath": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus16\\Harjoitus16\\Harjoitus16.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohammad\\source\\repos\\windows-form1\\Harjoitus16\\Harjoitus16\\obj\\",
+        "outputPath": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus16\\Harjoitus16\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

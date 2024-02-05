@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohammad\\Source\\Repos\\windows-form\\harjoitus14\\harjoitus 14\\harjoitus 14.csproj",
+      "projectUniqueName": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus14\\harjoitus 14\\harjoitus 14.csproj",
       "projectName": "harjoitus 14",
-      "projectPath": "C:\\Users\\mohammad\\Source\\Repos\\windows-form\\harjoitus14\\harjoitus 14\\harjoitus 14.csproj",
+      "projectPath": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus14\\harjoitus 14\\harjoitus 14.csproj",
       "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohammad\\Source\\Repos\\windows-form\\harjoitus14\\harjoitus 14\\obj\\",
+      "outputPath": "C:\\Users\\mohammad\\source\\repos\\windows-formm\\Harjoitus14\\harjoitus 14\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

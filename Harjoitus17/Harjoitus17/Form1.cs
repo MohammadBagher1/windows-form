@@ -44,7 +44,7 @@ namespace Harjoitus17
         {
             try
             {
-                if (string.IsNullOrEmpty(Text)) // Check if the file has been saved before
+                if (string.IsNullOrEmpty(TekstiTB.Text))
                 {
                     saveFileDialog = new SaveFileDialog();
                     saveFileDialog.Filter = "Tekstitiedosto (*.txt)|*.txt|Rikas tekstiformaatti (*.rtf)|*.rtf";
@@ -52,12 +52,11 @@ namespace Harjoitus17
                     if (saveFileDialog.ShowDialog() == DialogResult.OK)
                     {
                         File.WriteAllText(saveFileDialog.FileName, TekstiTB.Text);
-                        Text = saveFileDialog.FileName; // Set the form's title to the saved file name
+                        Text = saveFileDialog.FileName;
                     }
                 }
                 else
                 {
-                    // File has already been saved, so just save changes
                     File.WriteAllText(Text, TekstiTB.Text);
                 }
             }
@@ -67,10 +66,18 @@ namespace Harjoitus17
             }
         }
 
-
         private void uusiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UusiTiedosto();
+            if (TekstiTB.Text != "")
+            {
+               tallennaToolStripMenuItem_Click(sender, e);
+                TekstiTB.Text = "";
+            }
+            else
+            {
+                TekstiTB.Text = "" ;
+            }
+
         }
 
         private void avaaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -88,7 +95,16 @@ namespace Harjoitus17
 
         private void tallennaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TallennaTiedosto();
+            using (SaveFileDialog ttk = new SaveFileDialog() { Filter = "TextDocument|*.txt", ValidateNames= true })
+            {
+                if(ttk.ShowDialog() == DialogResult.OK)
+                {
+                    using(StreamWriter jonokirjoittaja = new StreamWriter(ttk.FileName))
+                    {
+                        jonokirjoittaja.WriteLineAsync(TekstiTB.Text);
+                    }
+                }
+            }
         }
 
         private void lopetaToolStripMenuItem_Click(object sender, EventArgs e)

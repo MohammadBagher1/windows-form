@@ -34,3 +34,9 @@ C:\Users\mohammad\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\
 C:\Users\mohammad\source\repos\windows-form\harjoitus 12\harjoitus 12\obj\Debug\harjoitus 12.pdb
 =======
 >>>>>>> 1abd3be72cf5442052ba6d79f0f99d43e80bb29a
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus12\harjoitus 12\obj\Debug\harjoitus 12.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus12\harjoitus 12\obj\Debug\harjoitus 12.csproj.SuggestedBindingRedirects.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus12\harjoitus 12\obj\Debug\harjoitus_12.Properties.Resources.resources
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus12\harjoitus 12\obj\Debug\harjoitus 12.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus12\harjoitus 12\obj\Debug\harjoitus 12.exe
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus12\harjoitus 12\obj\Debug\harjoitus 12.pdb

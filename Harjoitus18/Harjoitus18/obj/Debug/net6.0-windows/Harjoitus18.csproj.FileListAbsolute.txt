@@ -1,0 +1,17 @@
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.exe
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.deps.json
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.runtimeconfig.json
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.dll
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\bin\Debug\net6.0-windows\Harjoitus18.pdb
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.Form1.resources
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.AssemblyInfoInputs.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.AssemblyInfo.cs
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.csproj.CoreCompileInputs.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.dll
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\refint\Harjoitus18.dll
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.pdb
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\Harjoitus18.genruntimeconfig.cache
+C:\Users\mohammad\source\repos\windows-formm\Harjoitus18\Harjoitus18\obj\Debug\net6.0-windows\ref\Harjoitus18.dll
