@@ -1,0 +1,7 @@
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\harjoituus20.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\harjoituus20.csproj.SuggestedBindingRedirects.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\CRUDNET.YllapitoForm.resources
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\harjoituus20.Properties.Resources.resources
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\harjoituus20.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\harjoituus20.csproj.CoreCompileInputs.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoituus20\harjoituus20\obj\Debug\harjoituus20.exe.config

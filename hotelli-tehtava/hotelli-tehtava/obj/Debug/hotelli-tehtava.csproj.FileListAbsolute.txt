@@ -1,0 +1,11 @@
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli-tehtava.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli-tehtava.csproj.SuggestedBindingRedirects.cache
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli-tehtava.exe.config
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli_tehtava.Form1.resources
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli_tehtava.Main_Form.resources
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli_tehtava.Form3.resources
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli_tehtava.Form4.resources
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli_tehtava.Form5.resources
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli_tehtava.Properties.Resources.resources
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli-tehtava.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-formm\hotelli-tehtava\hotelli-tehtava\obj\Debug\hotelli-tehtava.csproj.CoreCompileInputs.cache

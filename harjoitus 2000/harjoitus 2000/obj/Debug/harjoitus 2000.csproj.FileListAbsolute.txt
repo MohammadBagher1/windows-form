@@ -1,0 +1,7 @@
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\harjoitus 2000.csproj.AssemblyReference.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\harjoitus 2000.csproj.SuggestedBindingRedirects.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\harjoitus 2000.exe.config
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\CRUDNET.YllapitoForm.resources
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\harjoitus_2000.Properties.Resources.resources
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\harjoitus 2000.csproj.GenerateResource.cache
+C:\Users\mohammad\source\repos\windows-formm\harjoitus 2000\harjoitus 2000\obj\Debug\harjoitus 2000.csproj.CoreCompileInputs.cache

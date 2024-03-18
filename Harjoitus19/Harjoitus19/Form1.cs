@@ -62,5 +62,10 @@ namespace Harjoitus19
             koriPL.Visible = true;
             herkutPL.Visible = false;
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();         
+        }
     }
 }
