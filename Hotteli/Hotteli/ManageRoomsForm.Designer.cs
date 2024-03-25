@@ -125,6 +125,7 @@
             // 
             // comboBoxRoomType
             // 
+            this.comboBoxRoomType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRoomType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxRoomType.FormattingEnabled = true;
             this.comboBoxRoomType.Location = new System.Drawing.Point(156, 151);
@@ -170,6 +171,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(381, 103);
             this.dataGridView1.Name = "dataGridView1";
@@ -177,6 +179,7 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(407, 335);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // textBoxPhone
             // 
@@ -211,6 +214,7 @@
             this.textBoxNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNumber.Location = new System.Drawing.Point(156, 100);
             this.textBoxNumber.Name = "textBoxNumber";
+            this.textBoxNumber.ReadOnly = true;
             this.textBoxNumber.Size = new System.Drawing.Size(210, 39);
             this.textBoxNumber.TabIndex = 2;
             // 

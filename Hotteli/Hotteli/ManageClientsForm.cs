@@ -35,6 +35,7 @@ namespace Hotteli
 
         private void buttonAddClient_Click(object sender, EventArgs e)
         {
+            String id = textBoxFirstName.Text;
             String fname = textBoxFirstName.Text;
             String lname = textBoxLastName.Text;
             String phone = textBoxPhone.Text;
@@ -46,7 +47,7 @@ namespace Hotteli
             }
             else
             {
-                Boolean insertClient = client.insertClient(fname, lname, phone, country);
+                Boolean insertClient = client.insertClient(id, fname, lname, phone, country);
 
                 if (insertClient)
                 {
@@ -127,6 +128,18 @@ namespace Hotteli
             {
                 MessageBox.Show(ex.Message, "ID Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBoxID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            textBoxFirstName.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            textBoxLastName.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            textBoxPhone.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            textBoxCountry.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
         }
     }
 }

@@ -16,12 +16,28 @@ namespace Hotteli
         {
             InitializeComponent();
         }
+        ROOM room= new ROOM();
+        private void ManageReservationsForm_Load(object sender, EventArgs e)
+        {
+            comboBoxRoomType.DataSource = room.roomTypeList();
+            comboBoxRoomType.DisplayMember = "label";
+            comboBoxRoomType.ValueMember = "category_id";
 
+            int type = Convert.ToInt32(comboBoxRoomType.SelectedValue.ToString());
+            comboBoxRoomNumber.DataSource = room.roomBytype(type);
+            comboBoxRoomNumber.DisplayMember = "number";
+            comboBoxRoomNumber.ValueMember = "number";
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
+
+
+
+
+        //ADD ------------------------------------------------------------------------------------------------------------------
         private void buttonAddRoom_Click(object sender, EventArgs e)
         {
 
@@ -66,6 +82,7 @@ namespace Hotteli
             }
         }
 
+        //edit--------------------------------------------------------------------------------------------------------------------------
             private void buttonEditReserv_Click(object sender, EventArgs e)
             {
 
@@ -111,6 +128,10 @@ namespace Hotteli
                 }
 
             }
+
+
+
+        //remove---------------------------------------------------------------------------------------------
             private void buttonRemoveReserv_Click(object sender, EventArgs e)
             {
                 try
@@ -131,6 +152,32 @@ namespace Hotteli
                     MessageBox.Show(ex.Message, "Delete Reservation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+
+
+
+        //Formload------------------------------------------------------------------------------------------------
         
+        private void ManageReservationssForm_Load(object sender, EventArgs e)
+        {
+            comboBoxRoomType.DataSource = room.GetType();
+        }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            textBoxClientID.Text = "";
+            textBoxReservId.Text = "";
+            comboBoxRoomType.SelectedIndex= 0;
+            dateTimePickerIN.Value= DateTime.Now;
+            dateTimePickerOUT.Value= DateTime.Now;
+
+        }
+
+        private void comboBoxRoomType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int type = Convert.ToInt32(comboBoxRoomType.SelectedValue.ToString());
+            comboBoxRoomNumber.DataSource = room.roomBytype(type);
+            comboBoxRoomNumber.DisplayMember = "number";
+            comboBoxRoomNumber.ValueMember = "number";
+        }
     }
 }

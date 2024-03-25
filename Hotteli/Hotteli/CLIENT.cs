@@ -5,33 +5,35 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace Hotteli
 {
     class CLIENT
     {
         CONNECT conn = new CONNECT();
-        public bool insertClient(string fname, string lname, string phone, string country); 
+
+
+
+        //ADD----------------------------------------------------------------------------------------------
+        public bool insertClient(string fname, string lname, string phone, string country, int id)
         {
             MySqlCommand command = new MySqlCommand();
-        string insertQuery = "INSERT INTO `clients`(`first_name`, `last_name`, `phone`, `country`) VALUES (@fnm,@lnm,@phn,@cnt)";
+        string insertQuery = "UPDATE `clients` SET ,`first_name`=@fnm,`last_name`=@lnm,`phone`=@phn,`country`=@cnt";
         command.CommandText= insertQuery;
-            command.Connection = conn.getVonnection();
+            command.Connection = conn.GetConnection();
 
-            //@fnm,@lnm,@phn,@cnt
-            command.Parameters.ADD("@fnm", MySqlDbType.VarChar).value= fname;
-            command.Parameters.ADD("@lnm", MySqlDbType.VarChar).value= lname;
-            command.Parameters.ADD("@fnm", MySqlDbType.VarChar).value= phone;
-            command.Parameters.ADD("@fnm", MySqlDbType.VarChar).value= country;
-
+            //@fnm,@lnm,@phn,@cnt,@cid
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value= fname;
+            command.Parameters.Add("@lnm", MySqlDbType.VarChar).Value = lname;
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = phone;
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = country;
 
             conn.openConnection();
-
-
-            if(commandt.ExcuteNonQuery()==1)
+            if (command.ExecuteNonQuery() == 1)
             {
                 conn.closeConnection();
-                return true   
+                return true;
             }
             else
             {
@@ -39,5 +41,68 @@ namespace Hotteli
                 return false;
             }
         }
+        public DataTable getclients()
+        {
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `clients`", conn.GetConnection());
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
+
+            adapter.SelectCommand = command;
+            adapter.Fill(table);
+            return table;
+        }
+
+
+        //REMOVE-----------------------------------------------------------------------------------------------
+        public bool removeClient(int id)
+        {
+            MySqlCommand command = new MySqlCommand();
+            string removeQuery = "DELETE FROM `clients` WHERE `id`=@cid";
+            command.CommandText= removeQuery;
+            command.Connection= conn.GetConnection();
+
+            command.Parameters.Add("@cid", MySqlDbType.Int32).Value = id;
+            conn.openConnection();
+            if (command.ExecuteNonQuery() == 1)
+            {
+                conn.closeConnection();
+                return true;
+            }
+            else
+            {
+                conn.closeConnection();
+                return false;
+            }
+        }
+
+
+        //EDIT--------------------------------------------------------------------------------------------------------
+        public bool editClient(string fname, string lname, string phone, string country, int id)
+        {
+            MySqlCommand command = new MySqlCommand();
+            string editQuery = "UPDATE `clients` SET `id`=@cid,`first_name`=@fnm,`last_name`=@lnm,`phone`=@phn,`country`=@cnt";
+            command.CommandText = editQuery;
+            command.Connection = conn.GetConnection();
+
+            //@fnm,@lnm,@phn,@cnt,@cid
+            command.Parameters.Add("@cid", MySqlDbType.VarChar).Value = id;
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = fname;
+            command.Parameters.Add("@lnm", MySqlDbType.VarChar).Value = lname;
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = phone;
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = country;
+
+            conn.openConnection();
+            if (command.ExecuteNonQuery() == 1)
+            {
+                conn.closeConnection();
+                return true;
+            }
+            else
+            {
+                conn.closeConnection();
+                return false;
+            }
+        }
+        //
     }
 }

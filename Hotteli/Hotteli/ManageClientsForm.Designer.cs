@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonClear = new System.Windows.Forms.Button();
+            this.buttonRemoveClient = new System.Windows.Forms.Button();
+            this.buttonEditClient = new System.Windows.Forms.Button();
+            this.buttonAddClient = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxLastName = new System.Windows.Forms.TextBox();
@@ -41,14 +46,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.buttonAddClient = new System.Windows.Forms.Button();
-            this.buttonEditClient = new System.Windows.Forms.Button();
-            this.buttonRemoveClient = new System.Windows.Forms.Button();
-            this.buttonClear = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,6 +75,58 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
             this.panel1.TabIndex = 0;
+            // 
+            // buttonClear
+            // 
+            this.buttonClear.Location = new System.Drawing.Point(210, 381);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(156, 29);
+            this.buttonClear.TabIndex = 15;
+            this.buttonClear.Text = "tyhjentä kentät";
+            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
+            // buttonRemoveClient
+            // 
+            this.buttonRemoveClient.Location = new System.Drawing.Point(269, 346);
+            this.buttonRemoveClient.Name = "buttonRemoveClient";
+            this.buttonRemoveClient.Size = new System.Drawing.Size(97, 29);
+            this.buttonRemoveClient.TabIndex = 14;
+            this.buttonRemoveClient.Text = "Poista";
+            this.buttonRemoveClient.UseVisualStyleBackColor = true;
+            this.buttonRemoveClient.Click += new System.EventHandler(this.buttonRemoveClient_Click);
+            // 
+            // buttonEditClient
+            // 
+            this.buttonEditClient.Location = new System.Drawing.Point(183, 346);
+            this.buttonEditClient.Name = "buttonEditClient";
+            this.buttonEditClient.Size = new System.Drawing.Size(80, 29);
+            this.buttonEditClient.TabIndex = 13;
+            this.buttonEditClient.Text = "Muokka";
+            this.buttonEditClient.UseVisualStyleBackColor = true;
+            this.buttonEditClient.Click += new System.EventHandler(this.buttonEditClient_Click);
+            // 
+            // buttonAddClient
+            // 
+            this.buttonAddClient.Location = new System.Drawing.Point(21, 346);
+            this.buttonAddClient.Name = "buttonAddClient";
+            this.buttonAddClient.Size = new System.Drawing.Size(156, 29);
+            this.buttonAddClient.TabIndex = 12;
+            this.buttonAddClient.Text = "Lisää uusi asiakas";
+            this.buttonAddClient.UseVisualStyleBackColor = true;
+            this.buttonAddClient.Click += new System.EventHandler(this.buttonAddClient_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(381, 103);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(407, 335);
+            this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // textBoxPhone
             // 
@@ -153,6 +205,7 @@
             this.textBoxID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxID.Location = new System.Drawing.Point(156, 100);
             this.textBoxID.Name = "textBoxID";
+            this.textBoxID.ReadOnly = true;
             this.textBoxID.Size = new System.Drawing.Size(210, 39);
             this.textBoxID.TabIndex = 2;
             // 
@@ -185,56 +238,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Manage Clients";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(381, 103);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(407, 335);
-            this.dataGridView1.TabIndex = 11;
-            // 
-            // buttonAddClient
-            // 
-            this.buttonAddClient.Location = new System.Drawing.Point(21, 346);
-            this.buttonAddClient.Name = "buttonAddClient";
-            this.buttonAddClient.Size = new System.Drawing.Size(156, 29);
-            this.buttonAddClient.TabIndex = 12;
-            this.buttonAddClient.Text = "Lisää uusi asiakas";
-            this.buttonAddClient.UseVisualStyleBackColor = true;
-            this.buttonAddClient.Click += new System.EventHandler(this.buttonAddClient_Click);
-            // 
-            // buttonEditClient
-            // 
-            this.buttonEditClient.Location = new System.Drawing.Point(183, 346);
-            this.buttonEditClient.Name = "buttonEditClient";
-            this.buttonEditClient.Size = new System.Drawing.Size(80, 29);
-            this.buttonEditClient.TabIndex = 13;
-            this.buttonEditClient.Text = "Muokka";
-            this.buttonEditClient.UseVisualStyleBackColor = true;
-            this.buttonEditClient.Click += new System.EventHandler(this.buttonEditClient_Click);
-            // 
-            // buttonRemoveClient
-            // 
-            this.buttonRemoveClient.Location = new System.Drawing.Point(269, 346);
-            this.buttonRemoveClient.Name = "buttonRemoveClient";
-            this.buttonRemoveClient.Size = new System.Drawing.Size(97, 29);
-            this.buttonRemoveClient.TabIndex = 14;
-            this.buttonRemoveClient.Text = "Poista";
-            this.buttonRemoveClient.UseVisualStyleBackColor = true;
-            this.buttonRemoveClient.Click += new System.EventHandler(this.buttonRemoveClient_Click);
-            // 
-            // buttonClear
-            // 
-            this.buttonClear.Location = new System.Drawing.Point(210, 381);
-            this.buttonClear.Name = "buttonClear";
-            this.buttonClear.Size = new System.Drawing.Size(156, 29);
-            this.buttonClear.TabIndex = 15;
-            this.buttonClear.Text = "tyhjentä kentät";
-            this.buttonClear.UseVisualStyleBackColor = true;
-            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
-            // 
             // ManageClientsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -246,9 +249,9 @@
             this.Load += new System.EventHandler(this.ManageClientsForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -11,17 +11,34 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Hotteli
 {
+    
+
+
+
+    //moi
     public partial class ManageRoomsForm : Form
     {
         public ManageRoomsForm()
         {
             InitializeComponent();
         }
+        ROOM room = new ROOM();
 
         private void ManageRoomsForm_Load(object sender, EventArgs e)
         {
+            comboBoxRoomType.DataSource = room.roomtypeList();
+            comboBoxRoomType.DisplayMember = "label";
+            comboBoxRoomType.ValueMember = "category_id";
 
+            dataGridView1.DataSource= room.getRooms();
         }
+
+
+
+
+
+
+        //button--------------------------------------------------------------------------------------
         private void buttonAddRoom_Click(object sender, EventArgs e)
         {
 
@@ -32,11 +49,11 @@ namespace Hotteli
             try
             {
                 int number = Convert.ToInt32(textBoxNumber.Text);
-                if (radioButtonYES.Checked)
+                if (radioButtonYes.Checked)
                 {
                     free = "Yes";
                 }
-                else if (radioButtonNO.Checked)
+                else if (radioButtonNo.Checked)
                 {
                     free = "No";
                 }
@@ -67,11 +84,11 @@ namespace Hotteli
             try
             {
                 int number = Convert.ToInt32(textBoxNumber.Text);
-                if (radioButtonYES.Checked)
+                if (radioButtonYes.Checked)
                 {
                     free = "Yes";
                 }
-                else if (radioButtonNO.Checked)
+                else if (radioButtonNo.Checked)
                 {
                     free = "No";
                 }
@@ -113,6 +130,14 @@ namespace Hotteli
             {
                 MessageBox.Show(ex.Message, "Room Number Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBoxNumber.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            comboBoxRoomType.SelectedText = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            textBoxPhone.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
 
         }
     }

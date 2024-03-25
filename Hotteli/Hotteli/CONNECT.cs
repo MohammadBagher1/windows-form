@@ -8,16 +8,16 @@ using MySql.Data.MySqlClient;
 
 namespace Hotteli
 {
-    internal class CONNECT
+    class CONNECT
     {
-        private MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=Csharp_Hotel_DB");
+        public MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=Csharp_Hotel_DB");
 
         public MySqlConnection GetConnection()
         {
             return connection;
         }
 
-        private void openConnection()
+        public void openConnection()
         {
             if(connection.State == ConnectionState.Closed) 
             {
@@ -25,12 +25,14 @@ namespace Hotteli
             }
         }
 
-        private void closedConnection()
+        public void closeConnection()
         {
             if (connection.State == ConnectionState.Open)
             {
                 connection.Close();
             }
         }
+        
+
     }
 }
